@@ -28,3 +28,5 @@ $longitud = strlen($name); // me da un número
 $random = rand(0, $longitud - 1);// número
 $resultado = substr($nombre, $random, 1);
 print $resultado;
+
+strlen(cadena), rand(min, max), y substr(cadena, inicio, largo).

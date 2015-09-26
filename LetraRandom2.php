@@ -25,6 +25,6 @@ otra forma
 
 $nombre = "sergio";
 $longitud = strlen($name); // me da un número 
-$random = rand(0, $largo - 1);// otro número 
-$sustraer = substr($name, $random, 1);
-print $sustraer;
+$random = rand(0, $longitud - 1);// letra
+$resultado = substr($nombre, $random, 1);
+print $resultado;
